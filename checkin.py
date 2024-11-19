@@ -86,5 +86,5 @@ if __name__ == '__main__':
         title = f'# 未找到 cookies!'
 
     # 推送消息
-    pushdeer = PushDeer(pushkey=sckey) 
-    pushdeer.send_text(title, desp=context)
+    pushplus = PushPlus(pushkey=sckey) 
+    pushplus.send_text(title, desp=context)
